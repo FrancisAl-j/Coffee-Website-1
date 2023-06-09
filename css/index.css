@@ -1,12 +1,20 @@
 * {
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    
 }
+/* .attachment-full{
+    padding: 1rem;
+} */
 /* CSS for honepage */
 .container-content {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: #f2e8df;
+    place-items: center;
 }
 .container-content > div {
     flex: 1 1 calc(992px / 2);
@@ -26,22 +34,26 @@
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 1rem;
+    text-align: center;
 }
 .container-text {
     padding: 1.25rem;
-    background: #fff;
+    background: #f2e8df;
 }
 .container-text p {
     font-size: 23px;
+    margin: 2rem;
 }
 .sub-title {
     font-size: 35px;
-    margin: 2rem 0;
+    margin-bottom: 1rem ;
+    text-align: center;
 }
 .images {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(228px, 2fr));
+    margin: 2rem;
 }
 .images img {
     width: 100%;
@@ -165,8 +177,9 @@
 }
 .about-background h1 {
     font-size: 60px;
-    color: brown;
+    color: wheat;
     text-transform: uppercase;
+    background: radial-gradient(black, transparent);
 }
 
 
@@ -242,6 +255,12 @@
     border-radius: 50px;
     border: 2px solid #DB975F;
     background-color: transparent;
+    
+}
+
+.button{
+    display: grid;
+    place-items: center;
 }
 .shop-now:hover {
     background: #DB975F;

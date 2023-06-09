@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Raleway";
     text-decoration: none;
     /*outline: 2px dotted #000;*/
 }
@@ -26,26 +26,26 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
-    background: rgba(40, 40, 43, 0.8);
+    background: #fff;
     transition: 0.6s;
     box-shadow: 0 5px rgb(0 0 0 / 20%);
 }
 header.sticky {
-    background: rgba(40, 40, 43, 0.8);
+    background: #ffff;
     padding: 0 20px;
     color: #000;
 }
 header.sticky .menu-item > a {
-    color: #fff;
+    color: black;
 }
 header.sticky .menu-item > a:hover {
-    color: #38220f;
+    color: #DB975F;
 }
 header.sticky .cart {
-    color: #fff;
+    color: black;
 }
 header.sticky .cart:hover {
-    color: #38220f;
+    color: #DB975F;
 }
 header .navbar {
     position: relative;
@@ -59,7 +59,7 @@ header .navbar .menu {
     user-select: none;
 }
 .menu-item > a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: 22px;
     margin: 0 10px;
@@ -68,7 +68,7 @@ header .navbar .menu {
     font-weight: 300;
 }
 .menu-item > a:hover {
-    color: #967259;
+    color: #DB975F;
 }
 .button {
     display: none !important; 
@@ -78,15 +78,17 @@ header .navbar .menu {
     margin: 25px;
     padding-left: 30px;
     cursor: pointer;
-    color: #fff;
+    color: black;
 }
 .cart:hover {
-    color: #967259;
+    color: #DB975F;
 }
 /* This is for background slider */
 .img1 {
-    width: 100%;
-    /*height: 100%;*/
+    width: 150rem;
+    height: auto;
+    
+    
     aspect-ratio: 2/1;
 }
 .dots {
