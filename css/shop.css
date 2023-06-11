@@ -21,11 +21,14 @@
 
 .heading{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 250px;
+    background-color: #f3f0de;
+    border: #f3f0de;
+    height: 30rem;
 }
 
  .heading h2{
-    font-size: 30px;
+    font-size: 50px;
  }
 
  .menu1 {
@@ -34,7 +37,7 @@
     list-style-type: none;
     justify-content: space-between ;
     user-select: none;
-    padding: 10px;
+    padding: 20px 20px;
     margin: 10px;
     width: 30%;;
  }
